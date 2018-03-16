@@ -1,5 +1,15 @@
+//WIFI STUFF
+//const char* ssid =     "my ssid";       //This is where you put in your home network's SSID to connect to
+//const char* password = "my password";   //This is where you put in your home network's password
+
+//Might need for json btc price extraction
+//const String url = "http://api.coindesk.com/v1/bpi/currentprice.json";
+
+
 String voice;
 int led13 = 13;
+//Might be needed for extracting prices from api
+//#include <ArduinoJson.h>
 
 void setup() {
   Serial.println("Initializing...");
@@ -30,6 +40,7 @@ void loop() {
     if (voice == "ethereum price") {
     
     //call function
+      
     //get price of ETH using coinmarketcap API
     //https://api.coinmarketcap.com/v1/ticker/ethereum/
     
