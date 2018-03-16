@@ -23,12 +23,15 @@ void loop() {
   if (voice == "bitcoin price") {
     
     //call function
-    
+    //get price of btc using coindesk API
+    //https://api.coindesk.com/v1/bpi/currentprice/BTC.json
   }
     
     if (voice == "ethereum price") {
     
     //call function
+    //get price of ETH using coinmarketcap API
+    //https://api.coinmarketcap.com/v1/ticker/ethereum/
     
   }  
     
