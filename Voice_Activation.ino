@@ -18,7 +18,21 @@ void loop() {
     //Serial.println("Voice detected!");
     Serial.println(voice); 
 //-----------------------------------------------------------------------//    
-  if(voice == "on") {digitalWrite(led13, HIGH);}
+  if (voice == "on") {digitalWrite(led13, HIGH);}
+    
+  if (voice == "bitcoin price") {
+    
+    //call function
+    
+  }
+    
+    if (voice == "ethereum price") {
+    
+    //call function
+    
+  }  
+    
+  
   else if(voice == "off") {digitalWrite(led13, LOW);}
 //-----------------------------------------------------------------------//  
 voice="";}} //Reset the variable after initiating
